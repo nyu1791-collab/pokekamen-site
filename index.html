@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HIDONNA × POKEKAMEN（ヒドンナ紹介・ポケカメン配信＆公式リンク）</title>
+  <link rel="icon" href="./assets/chibi_only.png" type="image/png" />
+  <meta name="description" content="ヒドンナ（ひーちゃん）× ポケカメン コラボ企画！ひーちゃんが紹介するポケカメンのリアルタイム配信状況（Kick・ツイキャス）、X（@GC5R5OGIKgV0yvz）、YouTube通常動画の最新3本まとめ。" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <!-- 1行スリムヘッダー（左寄せ・名前まで表示・配信中はぴっこんぴっこん） -->
+  <header class="site-header">
+    <a href="#top" class="brand">
+      <img src="./assets/chibi_only.png" alt="ひーちゃん" />
+      <span class="brand-en">HIDONNA × POKE</span>
+    </a>
+
+    <div class="header-actions">
+      <a href="https://kick.com/pokekamen" target="_blank" rel="noopener noreferrer" class="hdr-btn hdr-kick" id="headerKickBtn" title="ポケカメン Kick ライブ配信を開く">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 2h6v6h3V5h3V2h6v6h-3v3h-3v2h3v3h3v6h-6v-3h-3v-3H9v6H3V2z"/></svg>
+        <span>Kick</span>
+      </a>
+      <a href="https://twitcasting.tv/gc5r5ogikgv0yvz" target="_blank" rel="noopener noreferrer" class="hdr-btn hdr-tc" id="headerTcBtn" title="ポケカメン ツイキャスを開く">
+        <img src="./assets/logo_twitcasting.png" alt="ツイキャス" />
+        <span>ツイキャス</span>
+      </a>
+      <a href="https://www.youtube.com/@pokekamen15" target="_blank" rel="noopener noreferrer" class="hdr-btn hdr-yt" title="ポケカメン YouTube チャンネルを開く">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
+        <span>YouTube</span>
+      </a>
+      <a href="https://x.com/GC5R5OGIKgV0yvz" target="_blank" rel="noopener noreferrer" class="hdr-btn hdr-x" title="ポケカメン 公式Xを開く" aria-label="ポケカメン 公式Xを開く">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        <span>X</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- =====================================================
+         HERO: ひーちゃんが紹介するポケカメン コラボ導線
+         ===================================================== -->
+    <section class="hero-section">
+      <div class="hero-backdrop-img" aria-hidden="true"></div>
+      <div class="container">
+        <div class="hero-row">
+          <div>
+            <div class="collab-kicker reveal-float is-visible">✨ HIDONNA × POKEKAMEN コラボ企画</div>
+            <h1 class="hero-title char-float" data-char-float="immediate">POKEKAMEN</h1>
+            <p class="hero-catch">
+              <span class="char-float" data-char-float="immediate">ひーちゃん紹介！<span class="pink">ポケカメン</span>公式まとめ</span>
+            </p>
+            <div class="collab-speech reveal-float is-visible">
+              <img class="collab-speech-avatar" src="./assets/chibi_only.png" alt="ひーちゃん" />
+              <div class="collab-speech-text">
+                <strong>ヒドンナ（ひーちゃん）より：</strong>コラボのお相手・ポケカメンくんの配信先と SNS をぜんぶまとめたよ〜！配信中はボタンが光るから、そのまま遊びに行ってね✨
+              </div>
+            </div>
+            <div class="hero-nav-pills reveal-float is-visible">
+              <a href="#kick-section" class="jump-pill jp-kick" id="jumpKick">Kick 配信</a>
+              <a href="#twitcasting-section" class="jump-pill jp-tc" id="jumpTc">ツイキャス</a>
+              <a href="https://x.com/GC5R5OGIKgV0yvz" target="_blank" rel="noopener noreferrer" class="jump-pill">𝕏 @GC5R5OGIKgV0yvz ↗</a>
+              <a href="#youtube" class="jump-pill jp-yt">▶ YouTube 最新3本</a>
+            </div>
+          </div>
+
+          <a href="https://kick.com/pokekamen" target="_blank" rel="noopener noreferrer" class="portrait-card reveal-float is-visible" title="ポケカメン Kick チャンネルを開く">
+            <div class="photo-box">
+              <img src="./assets/portrait.jpg" alt="ヒドンナ（ひーちゃん）コラボ紹介ポートレート" />
+              <span class="collab-guest-badge" title="ポケカメン公式アイコン">
+                <img src="./assets/poke_avatar_x.jpg" alt="ポケカメン公式アイコン" />
+              </span>
+            </div>
+            <div class="portrait-foot">
+              <span class="portrait-logo"><img src="./assets/logo_jp_only.png" alt="ヒドンナ" /></span>
+              <div class="portrait-name">
+                <strong>ひーちゃん紹介 × ポケカメン</strong>
+                Kick 5.7万 ・ X 33.8万 ・ YT 64.9万 ↗
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         BLOCK 1: プラットフォーム別の専用フルワイド枠（Kick / ツイキャス / X）
+         ===================================================== -->
+    <section class="section" id="live">
+      <div class="container">
+        <div class="platform-stack">
+
+          <!-- 1. KICK 専用枠 -->
+          <article class="platform-frame frame-kick reveal-float is-visible" id="kick-section">
+            <div class="pf-header">
+              <div class="pf-brand">
+                <span class="pf-icon icon-kick">
+                  <img src="./assets/logo_kick.png" alt="Kick 公式アイコン" />
+                </span>
+                <div class="pf-title-group">
+                  <h2 class="pf-title">Kick ライブ配信</h2>
+                  <div class="pf-sub" id="kickFollowers">kick.com/pokekamen ・ フォロワー 57,499</div>
+                </div>
+              </div>
+              <span class="live-badge" id="kickBadge">
+                <span class="pulse-dot" id="kickDot"></span>
+                <span id="kickBadgeText">OFFLINE</span>
+              </span>
+            </div>
+
+            <div class="stream-preview-thumb" id="kickThumbWrap">
+              <img id="kickThumbImg" alt="ポケカメン Kick ライブ配信中プレビュー" referrerpolicy="no-referrer" />
+            </div>
+
+            <div class="pf-status-row">
+              <div class="pf-status-copy">
+                <div class="pf-status-main" id="kickStreamTitle">現在はオフラインです</div>
+                <div class="pf-status-detail" id="kickStreamMeta">配信が始まると自動で「LIVE 配信中」＋視聴者数に切り替わります</div>
+              </div>
+              <a href="https://kick.com/pokekamen" target="_blank" rel="noopener noreferrer" class="pf-cta cta-kick" id="kickCta">
+                <span>Kick チャンネルを開く</span>
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+
+            <!-- Kick 最新配信アーカイブ 3本（横3列） -->
+            <div class="recent-block">
+              <div class="recent-head">
+                <span class="recent-label">最新の Kick 配信アーカイブ 3本</span>
+                <a href="https://kick.com/pokekamen/videos" target="_blank" rel="noopener noreferrer" class="recent-more">アーカイブ一覧 ↗</a>
+              </div>
+              <div class="recent-grid" id="kickVodGrid">
+                <a class="recent-card" href="https://kick.com/pokekamen/videos/01a1f1ea-2b50-7aa3-9a5e-64a5844a6173" target="_blank" rel="noopener noreferrer">
+                  <div class="recent-thumb">
+                    <img src="./assets/poke_avatar_kick.webp" alt="ヒドンナさんとデート！俺の暴露が出る！？嘘つくなマティアス" loading="lazy" />
+                    <span class="recent-tag-tl">KICK 1</span>
+                    <span class="recent-tag-br">4:50:28</span>
+                  </div>
+                  <div class="recent-body">
+                    <div class="recent-meta"><span>2026-11-19</span><span>IRL</span></div>
+                    <div class="recent-title">ヒドンナさんとデート！俺の暴露が出る！？嘘つくなマティアス</div>
+                  </div>
+                </a>
+                <a class="recent-card" href="https://kick.com/pokekamen/videos/01a1ecf5-e3a0-7024-891a-2456cfbf0fc8" target="_blank" rel="noopener noreferrer">
+                  <div class="recent-thumb">
+                    <img src="./assets/poke_avatar_kick.webp" alt="ねむこと一緒に野田草履の家に向かう！今日はkick公式！" loading="lazy" />
+                    <span class="recent-tag-tl">KICK 2</span>
+                    <span class="recent-tag-br">3:57:39</span>
+                  </div>
+                  <div class="recent-body">
+                    <div class="recent-meta"><span>2026-11-18</span><span>Just Chatting</span></div>
+                    <div class="recent-title">ねむこと一緒に野田草履の家に向かう！今日はkick公式！</div>
+                  </div>
+                </a>
+                <a class="recent-card" href="https://kick.com/pokekamen/videos/01a1e7e2-4868-7011-a2ea-de4e4615065f" target="_blank" rel="noopener noreferrer">
+                  <div class="recent-thumb">
+                    <img src="./assets/poke_avatar_kick.webp" alt="ポケカメンの誕生日会のその後…" loading="lazy" />
+                    <span class="recent-tag-tl">KICK 3</span>
+                    <span class="recent-tag-br">2:03:10</span>
+                  </div>
+                  <div class="recent-body">
+                    <div class="recent-meta"><span>2026-11-17</span><span>Just Chatting</span></div>
+                    <div class="recent-title">ポケカメンの誕生日会のその後…もんじょりがそくと行動！？他にもやばい話が…</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- Kick 公式プロフィール -->
+            <div class="pf-profile">
+              <img class="pf-avatar" id="kickAvatar" src="./assets/poke_avatar_kick.webp" alt="pokekamen Kick アイコン" />
+              <div class="pf-profile-body">
+                <div class="pf-profile-label" id="kickProfileName">pokekamen（Kick プロフィール）</div>
+                <div class="pf-profile-bio" id="kickProfileBio">相談事にのりそれを晒してる配信者！なんでも相談乗ります！</div>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. ツイキャス 専用枠 -->
+          <article class="platform-frame frame-twitcasting reveal-float" id="twitcasting-section">
+            <div class="pf-header">
+              <div class="pf-brand">
+                <span class="pf-icon icon-tc">
+                  <img src="./assets/logo_twitcasting.png" alt="ツイキャス 公式アイコン" />
+                </span>
+                <div class="pf-title-group">
+                  <h2 class="pf-title">ツイキャス ライブ配信</h2>
+                  <div class="pf-sub" id="tcFollowers">twitcasting.tv/gc5r5ogikgv0yvz ・ サポーター 269.0k ・ Lv.80</div>
+                </div>
+              </div>
+              <span class="live-badge" id="tcBadge">
+                <span class="pulse-dot" id="tcDot"></span>
+                <span id="tcBadgeText">OFFLINE</span>
+              </span>
+            </div>
+
+            <div class="stream-preview-thumb tc-thumb" id="tcThumbWrap">
+              <img id="tcThumbImg" alt="ポケカメン ツイキャス ライブ配信中プレビュー" referrerpolicy="no-referrer" />
+            </div>
+
+            <div class="pf-status-row">
+              <div class="pf-status-copy">
+                <div class="pf-status-main" id="tcStreamTitle">現在はオフラインです</div>
+                <div class="pf-status-detail" id="tcStreamMeta">配信が始まると自動で「LIVE 配信中」に切り替わります</div>
+              </div>
+              <a href="https://twitcasting.tv/gc5r5ogikgv0yvz" target="_blank" rel="noopener noreferrer" class="pf-cta cta-tc" id="tcCta">
+                <span>ツイキャスを開く</span>
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+
+            <!-- ツイキャス 最新録画アーカイブ 3本（横3列） -->
+            <div class="recent-block">
+              <div class="recent-head">
+                <span class="recent-label">最新のツイキャス録画アーカイブ 3本</span>
+                <a href="https://twitcasting.tv/gc5r5ogikgv0yvz/show/" target="_blank" rel="noopener noreferrer" class="recent-more">録画一覧 ↗</a>
+              </div>
+              <div class="recent-grid" id="tcMovieGrid">
+                <a class="recent-card" href="https://twitcasting.tv/gc5r5ogikgv0yvz/movie/843145974" target="_blank" rel="noopener noreferrer">
+                  <div class="recent-thumb">
+                    <img src="./assets/poke_avatar_tc.jpg" alt="緊急メンシプ" loading="lazy" />
+                    <span class="recent-tag-tl">CAS 1</span>
+                    <span class="recent-tag-br">1:12:34</span>
+                  </div>
+                  <div class="recent-body">
+                    <div class="recent-meta"><span>2026-11-19 23:00</span><span>1:12:34</span></div>
+                    <div class="recent-title">緊急メンシプ</div>
+                  </div>
+                </a>
+                <a class="recent-card" href="https://twitcasting.tv/gc5r5ogikgv0yvz/movie/843062991" target="_blank" rel="noopener noreferrer">
+                  <div class="recent-thumb">
+                    <img src="./assets/poke_avatar_tc.jpg" alt="ライフイズストレンジ１" loading="lazy" />
+                    <span class="recent-tag-tl">CAS 2</span>
+                    <span class="recent-tag-br">2:58:47</span>
+                  </div>
+                  <div class="recent-body">
+                    <div class="recent-meta"><span>2026-11-17 19:29</span><span>2:58:47</span></div>
+                    <div class="recent-title">ライフイズストレンジ１</div>
+                  </div>
+                </a>
+                <a class="recent-card" href="https://twitcasting.tv/gc5r5ogikgv0yvz/movie/842965305" target="_blank" rel="noopener noreferrer">
+                  <div class="recent-thumb">
+                    <img src="./assets/poke_avatar_tc.jpg" alt="緊急" loading="lazy" />
+                    <span class="recent-tag-tl">CAS 3</span>
+                    <span class="recent-tag-br">1:12:54</span>
+                  </div>
+                  <div class="recent-body">
+                    <div class="recent-meta"><span>2026-11-14 23:55</span><span>1:12:54</span></div>
+                    <div class="recent-title">緊急</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- ツイキャス 公式プロフィール -->
+            <div class="pf-profile">
+              <img class="pf-avatar" id="tcAvatar" src="./assets/poke_avatar_tc.jpg" alt="ポケカメン ツイキャスアイコン" />
+              <div class="pf-profile-body">
+                <div class="pf-profile-label" id="tcProfileName">ポケカメン@配信者（ツイキャスプロフィール）</div>
+                <div class="pf-profile-bio" id="tcProfileBio">YouTube/ツイキャスで動画だして配信してる晒し系歌い手です！！サブ垢→【@8IcoEitHGybnh5V】ちょこらび🍫🐰【@_Chofficial】DMで炎上や害悪のやばい情報募集してます！</div>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. X（旧Twitter）専用枠 -->
+          <article class="platform-frame frame-x reveal-float" id="x-section">
+            <div class="pf-header">
+              <div class="pf-brand">
+                <span class="pf-icon icon-x" aria-hidden="true">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                </span>
+                <div class="pf-title-group">
+                  <h2 class="pf-title">X（旧Twitter）</h2>
+                  <div class="pf-sub" id="xFollowers">@GC5R5OGIKgV0yvz ・ フォロワー 338,091</div>
+                </div>
+              </div>
+              <span class="live-badge x-pill">相談・暴露はDMまで</span>
+            </div>
+
+            <div class="x-banner-strip">
+              <img src="./assets/poke_banner_x.jpg" alt="ポケカメン 公式Xバナー" loading="lazy" />
+            </div>
+
+            <div class="pf-status-row">
+              <div class="pf-status-copy">
+                <div class="pf-status-main">Kick・ツイキャスの配信開始告知や最新の暴露・相談受付中</div>
+                <div class="pf-status-detail">フォロー＆通知ONで、突発配信やコラボ開始をすぐ受け取れます</div>
+              </div>
+              <a href="https://x.com/GC5R5OGIKgV0yvz" target="_blank" rel="noopener noreferrer" class="pf-cta cta-x">
+                <span>X（本垢）を開く</span>
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+
+            <!-- 公式サブ・関連SNS 3導線（横3列） -->
+            <div class="recent-block">
+              <div class="recent-head">
+                <span class="recent-label">公式サブ垢・Instagram 3導線</span>
+                <a href="https://x.com/GC5R5OGIKgV0yvz" target="_blank" rel="noopener noreferrer" class="recent-more">本垢を見る ↗</a>
+              </div>
+              <div class="recent-grid">
+                <a class="sublink-card" href="https://x.com/8IcoEitHGybnh5V" target="_blank" rel="noopener noreferrer">
+                  <span class="sublink-tag">X サブ垢</span>
+                  <div class="sublink-name">ポケカメン サブ垢 ↗</div>
+                  <div class="sublink-handle">@8IcoEitHGybnh5V</div>
+                </a>
+                <a class="sublink-card" href="https://x.com/Pokekamen_info" target="_blank" rel="noopener noreferrer">
+                  <span class="sublink-tag">X インフォ</span>
+                  <div class="sublink-name">ポケカメン インフォ垢 ↗</div>
+                  <div class="sublink-handle">@Pokekamen_info</div>
+                </a>
+                <a class="sublink-card" href="https://www.instagram.com/pokestgram/" target="_blank" rel="noopener noreferrer">
+                  <span class="sublink-tag tag-ig">Instagram</span>
+                  <div class="sublink-name">相談・写真も公開中 ↗</div>
+                  <div class="sublink-handle">@pokestgram</div>
+                </a>
+              </div>
+            </div>
+
+            <!-- X 公式プロフィール -->
+            <div class="pf-profile">
+              <img class="pf-avatar" id="xAvatar" src="./assets/poke_avatar_x.jpg" alt="ポケカメン X アイコン" />
+              <div class="pf-profile-body">
+                <div class="pf-profile-label">
+                  <span id="xProfileName">ポケカメン@配信者</span>
+                  <span class="verified-check" title="認証済み">✓</span>
+                  <span style="font-size:0.78rem; color:var(--muted); font-family:var(--font-sans);">@GC5R5OGIKgV0yvz</span>
+                </div>
+                <div class="pf-profile-bio" id="xProfileBio">動画だして配信してる晒し系！サブ垢→【@8IcoEitHGybnh5V】相談など暴露はDMまで！インスタでも相談乗ってます→【instagram.com/pokestgram】ポケカメンインフォ垢→【@Pokekamen_info】
+配信してる場所：ツイキャス・kick・YouTube</div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         BLOCK 2: YouTube 最新動画 3本（ショート除外・通常動画のみ）
+         ===================================================== -->
+    <section class="section" id="youtube">
+      <div class="container">
+        <div class="sec-head">
+          <div>
+            <div class="sec-kicker reveal-float">LATEST YOUTUBE VIDEOS</div>
+            <h2 class="sec-title">
+              <span class="char-float" data-char-float>YouTube 最新動画 3本</span>
+            </h2>
+          </div>
+          <a href="https://www.youtube.com/@pokekamen15/videos" target="_blank" rel="noopener noreferrer" class="sec-link reveal-float">
+            ポケカメン全動画 ↗
+          </a>
+        </div>
+
+        <div class="yt-grid" id="ytGrid">
+          <a class="yt-card reveal-float" href="https://www.youtube.com/watch?v=LGNH6C2m7r0" target="_blank" rel="noopener noreferrer">
+            <div class="yt-thumb-wrap">
+              <img src="https://i.ytimg.com/vi/LGNH6C2m7r0/hqdefault.jpg" alt="【総集編】歌い手界隈で起きたヤバすぎる炎上まとめ" loading="lazy" referrerpolicy="no-referrer" />
+              <span class="yt-new-tag">NEW 1</span>
+              <div class="yt-play-badge"><span class="yt-play-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg></span></div>
+            </div>
+            <div class="yt-info">
+              <span class="yt-date">2026-11-12</span>
+              <h3 class="yt-title">【総集編】歌い手界隈で起きたヤバすぎる炎上まとめ...この動画が消される前に絶対に見てください。</h3>
+            </div>
+          </a>
+
+          <a class="yt-card reveal-float" data-delay="1" href="https://www.youtube.com/watch?v=W-0k1c87jMw" target="_blank" rel="noopener noreferrer">
+            <div class="yt-thumb-wrap">
+              <img src="https://i.ytimg.com/vi/W-0k1c87jMw/hqdefault.jpg" alt="【総集編】嘘を吐き中⚫︎費用を支援希望するクズを晒します" loading="lazy" referrerpolicy="no-referrer" />
+              <span class="yt-new-tag">NEW 2</span>
+              <div class="yt-play-badge"><span class="yt-play-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg></span></div>
+            </div>
+            <div class="yt-info">
+              <span class="yt-date">2026-11-03</span>
+              <h3 class="yt-title">【総集編】嘘を吐き中⚫︎費用を支援希望するクズを晒します...更にホストの家から違法⚫︎物が見つかり警察沙汰になりとんでもない事が起きた。</h3>
+            </div>
+          </a>
+
+          <a class="yt-card reveal-float" data-delay="2" href="https://www.youtube.com/watch?v=EhF_J1Wn20M" target="_blank" rel="noopener noreferrer">
+            <div class="yt-thumb-wrap">
+              <img src="https://i.ytimg.com/vi/EhF_J1Wn20M/hqdefault.jpg" alt="【注意喚起】これから動物を飼おうとしてる方はこの動画を見てください" loading="lazy" referrerpolicy="no-referrer" />
+              <span class="yt-new-tag">NEW 3</span>
+              <div class="yt-play-badge"><span class="yt-play-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg></span></div>
+            </div>
+            <div class="yt-info">
+              <span class="yt-date">2026-10-25</span>
+              <h3 class="yt-title">【注意喚起】これから動物を飼おうとしてる方はこの動画を見てください...そしてこの動画を拡散してください。</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div><strong>HIDONNA × POKEKAMEN</strong> — ひーちゃん紹介・コラボ公式導線ポータル</div>
+    <div>
+      <a href="https://nyu1791-collab.github.io/hidonna-site/" target="_blank" rel="noopener noreferrer" class="footer-back-link">
+        ヒドンナ（ひーちゃん）公式導線サイトを見る ↗
+      </a>
+    </div>
+    <div class="footer-meta" id="lastUpdated">配信状況・各媒体の最新3件は自動更新されます</div>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
