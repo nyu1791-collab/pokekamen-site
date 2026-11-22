@@ -1,17 +1,26 @@
 {
-  "fetched_at": "2026-11-22 15:30:51 JST",
+  "fetched_at": "2026-11-22 23:52:33 JST",
   "kick": {
-    "is_live": true,
-    "title": "もんじょりとひろあきが！？更にあの配信者がやらかし！もう終わりだ！！",
-    "viewers": 2363,
-    "category": "Just Chatting",
-    "thumbnail": "https://stream.kick.com/thumbnails/livestream/139534759/thumb0/video_thumbnail/thumb0.jpg",
-    "followers": 57486,
+    "is_live": false,
+    "title": "",
+    "viewers": 0,
+    "category": "",
+    "thumbnail": "",
+    "followers": 57540,
     "username": "pokekamen",
     "avatar": "https://files.kick.com/images/user/58262995/profile_image/conversion/7038312c-d6fd-4ad0-9fad-013412edf605-fullsize.webp",
     "bio": "相談事にのりそれを晒してる配信者！なんでも相談乗ります！",
     "url": "https://kick.com/pokekamen",
     "videos": [
+      {
+        "id": "01a201d9-7fe8-73dd-bcd2-127272aab486",
+        "title": "もんじょりとひろあきが！？更にあの配信者がやらかし！もう終わりだ！！",
+        "date": "2026-11-22",
+        "duration": "7:02:06",
+        "category": "Just Chatting",
+        "url": "https://kick.com/pokekamen/videos/01a201d9-7fe8-73dd-bcd2-127272aab486",
+        "thumbnail": "https://web.kick.com/api/v1/videos/01a201d9-7fe8-73dd-bcd2-127272aab486/thumbnails/12663000.jpeg?cwt=0oRDoQEmoQRYGnRodW1ibmFpbC1jYXQtcHJvZHVjdGlvbi0xWIqlAWhraWNrLnZvZANna2ljay5ndwYaawLozxkBOKMBoQBsd2ViLmtpY2suY29tBaEAeD4vYXBpL3YxL3ZpZGVvcy8wMWEyMDFkOS03ZmU4LTczZGQtYmNkMi0xMjcyNzJhYWI0ODYvdGh1bWJuYWlscwahAG0xMjY2MzAwMC5qcGVnGQE5gWNHRVRYQKaqvUynInOQRcNv704qB14EAFZt3V2qEPt2qKnE1FqFClIssTQ4yTQj-vS-2C7rX4bTztOKddHyGpBUH_rKzR4"
+      },
       {
         "id": "01a1f787-6cd0-7fae-9822-19f90acdfdbe",
         "title": "けんきさんの暴露ｗｗｗ配信者が救急車に運ばれる！？機長さんが喧嘩！？もんじょり大丈夫か！",
@@ -29,15 +38,6 @@
         "category": "IRL",
         "url": "https://kick.com/pokekamen/videos/01a1f1ea-2b50-7aa3-9a5e-64a5844a6173",
         "thumbnail": "https://web.kick.com/api/v1/videos/01a1f1ea-2b50-7aa3-9a5e-64a5844a6173/thumbnails/8715000.jpeg?cwt=0oRDoQEmoQRYGnRodW1ibmFpbC1jYXQtcHJvZHVjdGlvbi0xWImlAWhraWNrLnZvZANna2ljay5ndwYaav61qxkBOKMBoQBsd2ViLmtpY2suY29tBaEAeD4vYXBpL3YxL3ZpZGVvcy8wMWExZjFlYS0yYjUwLTdhYTMtOWE1ZS02NGE1ODQ0YTYxNzMvdGh1bWJuYWlscwahAGw4NzE1MDAwLmpwZWcZATmBY0dFVFhAXA8x_GXdXC4lM_bRNU2rGa27x7TVZblIyU7lNpENEvWtXeXP5FFMF5jNj88ukgwPIhKrNWW1xtOxgIj7C0yO2g"
-      },
-      {
-        "id": "01a1ecf5-e3a0-7024-891a-2456cfbf0fc8",
-        "title": "ねむこと一緒に野田草履の家に向かう！今日はkick公式！",
-        "date": "2026-11-18",
-        "duration": "3:57:39",
-        "category": "Just Chatting",
-        "url": "https://kick.com/pokekamen/videos/01a1ecf5-e3a0-7024-891a-2456cfbf0fc8",
-        "thumbnail": "https://web.kick.com/api/v1/videos/01a1ecf5-e3a0-7024-891a-2456cfbf0fc8/thumbnails/7129500.jpeg?cwt=0oRDoQEmoQRYGnRodW1ibmFpbC1jYXQtcHJvZHVjdGlvbi0xWImlAWhraWNrLnZvZANna2ljay5ndwYaav1klxkBOKMBoQBsd2ViLmtpY2suY29tBaEAeD4vYXBpL3YxL3ZpZGVvcy8wMWExZWNmNS1lM2EwLTcwMjQtODkxYS0yNDU2Y2ZiZjBmYzgvdGh1bWJuYWlscwahAGw3MTI5NTAwLmpwZWcZATmBY0dFVFhAJu0Gh15B1qoaTZam4wgDw7KfA_-rvnPQZUO8pc1ItqxbmoppnLMjjMp8p4vP9JvhjzlV0yuaFQzS-hgD5f371Q"
       }
     ],
     "status_ok": true
@@ -88,7 +88,7 @@
   "x": {
     "handle": "@GC5R5OGIKgV0yvz",
     "name": "ポケカメン@配信者",
-    "followers": 337910,
+    "followers": 337861,
     "avatar": "https://pbs.twimg.com/profile_images/1876946204531281920/KdaFTVsI_400x400.jpg",
     "banner": "./assets/poke_banner_x.jpg",
     "bio": "動画だして配信してる晒し系！サブ垢→【@8IcoEitHGybnh5V 】相談など暴露はDMまで！インスタでも相談乗ってます→ 【http://instagram.com/pokestgram 】ポケカメンインフォ垢→【@Pokekamen_info】\n\n配信してる場所\n・ツイキャス\n・kick\n・YouTube",
