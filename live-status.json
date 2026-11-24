@@ -1,17 +1,35 @@
 {
-  "fetched_at": "2026-11-24 14:36:17 JST",
+  "fetched_at": "2026-11-25 01:26:01 JST",
   "kick": {
-    "is_live": true,
-    "title": "久永小太郎大暴れ！？せいじさん大丈夫か！？ノックさんに助けようとした子が凸リレー…",
-    "viewers": 3919,
-    "category": "Just Chatting",
+    "is_live": false,
+    "title": "",
+    "viewers": 0,
+    "category": "",
     "thumbnail": "",
-    "followers": 57647,
+    "followers": 57734,
     "username": "pokekamen",
     "avatar": "https://files.kick.com/images/user/58262995/profile_image/conversion/7038312c-d6fd-4ad0-9fad-013412edf605-fullsize.webp",
     "bio": "相談事にのりそれを晒してる配信者！なんでも相談乗ります！",
     "url": "https://kick.com/pokekamen",
     "videos": [
+      {
+        "id": "01a20d68-c620-7e15-ac65-0af11b69bbba",
+        "title": "ガチ心霊配信助けてください…山ちゃんとコラボ！",
+        "date": "2026-11-24",
+        "duration": "1:37:33",
+        "category": "IRL",
+        "url": "https://kick.com/pokekamen/videos/01a20d68-c620-7e15-ac65-0af11b69bbba",
+        "thumbnail": "https://web.kick.com/api/v1/videos/01a20d68-c620-7e15-ac65-0af11b69bbba/thumbnails/2926500.jpeg?cwt=0oRDoQEmoQRYGnRodW1ibmFpbC1jYXQtcHJvZHVjdGlvbi0xWImlAWhraWNrLnZvZANna2ljay5ndwYaawWSVBkBOKMBoQBsd2ViLmtpY2suY29tBaEAeD4vYXBpL3YxL3ZpZGVvcy8wMWEyMGQ2OC1jNjIwLTdlMTUtYWM2NS0wYWYxMWI2OWJiYmEvdGh1bWJuYWlscwahAGwyOTI2NTAwLmpwZWcZATmBY0dFVFhAb-GcjsBBqdPeKsvTRlIB12ffmgAdUAAPJ7-u0W6HFGxkWtT_8oaZ0EezXSHp_2Ow72aZjLVrhTIAMajakD3VvQ"
+      },
+      {
+        "id": "01a20bc3-4f98-7da1-b973-72ef8a9c5b82",
+        "title": "久永小太郎大暴れ！？せいじさん大丈夫か！？ノックさんに助けようとした子が凸リレー…",
+        "date": "2026-11-24",
+        "duration": "3:00:53",
+        "category": "Just Chatting",
+        "url": "https://kick.com/pokekamen/videos/01a20bc3-4f98-7da1-b973-72ef8a9c5b82",
+        "thumbnail": "https://web.kick.com/api/v1/videos/01a20bc3-4f98-7da1-b973-72ef8a9c5b82/thumbnails/5426500.jpeg?cwt=0oRDoQEmoQRYGnRodW1ibmFpbC1jYXQtcHJvZHVjdGlvbi0xWImlAWhraWNrLnZvZANna2ljay5ndwYaawU58hkBOKMBoQBsd2ViLmtpY2suY29tBaEAeD4vYXBpL3YxL3ZpZGVvcy8wMWEyMGJjMy00Zjk4LTdkYTEtYjk3My03MmVmOGE5YzViODIvdGh1bWJuYWlscwahAGw1NDI2NTAwLmpwZWcZATmBY0dFVFhASXWLrWgaWZtY-i_7KQnloWzKEbE0gPnls10QyDJEiNIeSzJQloeYOPqvT0OQWxuKBnHEcbqbf_clvEknhxbDYw"
+      },
       {
         "id": "01a20690-b6c8-7af3-857d-31f97b6d482a",
         "title": "お祓い企画第3弾！ゆうこうかい！ミート源五郎さんとこまちをお祓い！",
@@ -20,24 +38,6 @@
         "category": "IRL",
         "url": "https://kick.com/pokekamen/videos/01a20690-b6c8-7af3-857d-31f97b6d482a",
         "thumbnail": "https://web.kick.com/api/v1/videos/01a20690-b6c8-7af3-857d-31f97b6d482a/thumbnails/6604000.jpeg?cwt=0oRDoQEmoQRYGnRodW1ibmFpbC1jYXQtcHJvZHVjdGlvbi0xWImlAWhraWNrLnZvZANna2ljay5ndwYaawPuhxkBOKMBoQBsd2ViLmtpY2suY29tBaEAeD4vYXBpL3YxL3ZpZGVvcy8wMWEyMDY5MC1iNmM4LTdhZjMtODU3ZC0zMWY5N2I2ZDQ4MmEvdGh1bWJuYWlscwahAGw2NjA0MDAwLmpwZWcZATmBY0dFVFhAwHm4eUZFH78iHbWE_G53EfLs5b0hIngQJhlf6qfvmDQOMqtmppyNhNRruWsPSbkojGQkpgQTqCS0RNmox8U-JA"
-      },
-      {
-        "id": "01a201d9-7fe8-73dd-bcd2-127272aab486",
-        "title": "もんじょりとひろあきが！？更にあの配信者がやらかし！もう終わりだ！！",
-        "date": "2026-11-22",
-        "duration": "7:02:06",
-        "category": "Just Chatting",
-        "url": "https://kick.com/pokekamen/videos/01a201d9-7fe8-73dd-bcd2-127272aab486",
-        "thumbnail": "https://web.kick.com/api/v1/videos/01a201d9-7fe8-73dd-bcd2-127272aab486/thumbnails/12663000.jpeg?cwt=0oRDoQEmoQRYGnRodW1ibmFpbC1jYXQtcHJvZHVjdGlvbi0xWIqlAWhraWNrLnZvZANna2ljay5ndwYaawLozxkBOKMBoQBsd2ViLmtpY2suY29tBaEAeD4vYXBpL3YxL3ZpZGVvcy8wMWEyMDFkOS03ZmU4LTczZGQtYmNkMi0xMjcyNzJhYWI0ODYvdGh1bWJuYWlscwahAG0xMjY2MzAwMC5qcGVnGQE5gWNHRVRYQKaqvUynInOQRcNv704qB14EAFZt3V2qEPt2qKnE1FqFClIssTQ4yTQj-vS-2C7rX4bTztOKddHyGpBUH_rKzR4"
-      },
-      {
-        "id": "01a1f787-6cd0-7fae-9822-19f90acdfdbe",
-        "title": "けんきさんの暴露ｗｗｗ配信者が救急車に運ばれる！？機長さんが喧嘩！？もんじょり大丈夫か！",
-        "date": "2026-11-20",
-        "duration": "4:02:46",
-        "category": "Just Chatting",
-        "url": "https://kick.com/pokekamen/videos/01a1f787-6cd0-7fae-9822-19f90acdfdbe",
-        "thumbnail": "https://web.kick.com/api/v1/videos/01a1f787-6cd0-7fae-9822-19f90acdfdbe/thumbnails/7283000.jpeg?cwt=0oRDoQEmoQRYGnRodW1ibmFpbC1jYXQtcHJvZHVjdGlvbi0xWImlAWhraWNrLnZvZANna2ljay5ndwYaawAaZRkBOKMBoQBsd2ViLmtpY2suY29tBaEAeD4vYXBpL3YxL3ZpZGVvcy8wMWExZjc4Ny02Y2QwLTdmYWUtOTgyMi0xOWY5MGFjZGZkYmUvdGh1bWJuYWlscwahAGw3MjgzMDAwLmpwZWcZATmBY0dFVFhA67yfid14f2aeIjnx7cVWuZHq_Y2zMH1jdVlbEiS3dMOZKo9HJ1OP2rmE9MW3gu378lFVfvNQ-wXxHy0kYxWtJQ"
       }
     ],
     "status_ok": true
@@ -88,16 +88,23 @@
   "x": {
     "handle": "@GC5R5OGIKgV0yvz",
     "name": "ポケカメン@配信者",
-    "followers": 338091,
-    "avatar": "./assets/poke_avatar_x.jpg",
+    "followers": 337626,
+    "avatar": "https://pbs.twimg.com/profile_images/1876946204531281920/KdaFTVsI_400x400.jpg",
     "banner": "./assets/poke_banner_x.jpg",
-    "bio": "動画だして配信してる晒し系！サブ垢→【@8IcoEitHGybnh5V】相談など暴露はDMまで！インスタでも相談乗ってます→【instagram.com/pokestgram】ポケカメンインフォ垢→【@Pokekamen_info】\n配信してる場所：ツイキャス・kick・YouTube",
+    "bio": "動画だして配信してる晒し系！サブ垢→【@8IcoEitHGybnh5V 】相談など暴露はDMまで！インスタでも相談乗ってます→ 【http://instagram.com/pokestgram 】ポケカメンインフォ垢→【@Pokekamen_info】\n\n配信してる場所\n・ツイキャス\n・kick\n・YouTube",
     "url": "https://x.com/GC5R5OGIKgV0yvz",
-    "status_ok": false
+    "status_ok": true
   },
   "youtube": {
     "channel_url": "https://www.youtube.com/@pokekamen15",
     "videos": [
+      {
+        "id": "0CzbgQQ5GWk",
+        "title": "【緊急】大炎上している”Mrs. GREEN APPLE”について。",
+        "published": "2026-11-24",
+        "url": "https://www.youtube.com/watch?v=0CzbgQQ5GWk",
+        "thumbnail": "https://i.ytimg.com/vi/0CzbgQQ5GWk/hqdefault.jpg"
+      },
       {
         "id": "T2k_8u1OD-g",
         "title": "【総集編】これまで支援した全ての害悪を晒します...嘘を吐くクズは許しません。",
@@ -111,13 +118,6 @@
         "published": "2026-11-12",
         "url": "https://www.youtube.com/watch?v=LGNH6C2m7r0",
         "thumbnail": "https://i.ytimg.com/vi/LGNH6C2m7r0/hqdefault.jpg"
-      },
-      {
-        "id": "W-0k1c87jMw",
-        "title": "【総集編】嘘を吐き中⚫︎費用を支援希望するクズを晒します...更にホストの家から違法⚫︎物が見つかり警察沙汰になりとんでもない事が起きた。",
-        "published": "2026-11-03",
-        "url": "https://www.youtube.com/watch?v=W-0k1c87jMw",
-        "thumbnail": "https://i.ytimg.com/vi/W-0k1c87jMw/hqdefault.jpg"
       }
     ],
     "status_ok": true
